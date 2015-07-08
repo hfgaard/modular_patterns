@@ -1,0 +1,29 @@
+{
+  "name": "modular_patterns",
+  "version": "1.0.0",
+  "description": "This program accepts an input from the console and will greet the name that is provided. It has tests to ensure that the greet function works and checks that the arguments are being processed.",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.2",
+    "jshint-stylish": "^2.0.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfgaard/modular_patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hfgaard/modular_patterns/issues"
+  },
+  "homepage": "https://github.com/hfgaard/modular_patterns#readme"
+}
